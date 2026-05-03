@@ -1,4 +1,4 @@
-# 🤖 Robotics Portfolio — Amadou Barry
+# 🤖 Robotics Portfolio
 
 > Master 2 en Automatique-Robotique — Parcours Perception Artificielle & Robotique
 
