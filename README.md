@@ -9,7 +9,7 @@
 | Projet | Description | Stack | Résultat | Statut |
 |--------|-------------|-------|----------|--------|
 | [Week 1 — ORB-SLAM3](./week1-orb-slam3/) | SLAM RGB-D sur TUM dataset | C++, OpenCV, Eigen | ATE RMSE: **1.047 cm** | ✅ |
-| [Week 2 — ROS2 Gazebo](./week2-ros2-gazebo/) | Navigation autonome simulée | ROS 2, Gazebo | — | ⏳ |
+| [Week 2 — ROS2 Gazebo](./week2-ros2-gazebo/) | Navigation autonome simulée + noeud joystick custom | ROS 2, Gazebo, Nav2, SLAM Toolbox | Carte 2D + Nav2 autonome  | ✅ |
 | [Week 3 — PCL LiDAR](./week3-pointcloud-lidar/) | Segmentation nuages de points | PCL, Open3D | — | ⏳ |
 | [Week 4 — SLAM ROS2](./week4-slam-ros2/) | ORB-SLAM3 intégré ROS 2 | ROS 2, SLAM | — | ⏳ |
 | [Week 5 — YOLOv8](./week5-yolo-detection/) | Détection objets temps réel | PyTorch, YOLO | — | ⏳ |
