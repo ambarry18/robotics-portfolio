@@ -2,7 +2,7 @@
 
 ## Aperçu
 Navigation autonome d'un robot mobile TurtleBot3 Waffle en simulation Gazebo.
-Pipeline complet : cartographie SLAM → navigation autonome Nav2 + noeud ROS 2 custom pour joystick.
+Pipeline complet : cartographie SLAM → navigation autonome Nav2 + noeud ROS 2 pour joystick.
 
 ## Démo
 ![Démo Navigation](results/demo.gif)
@@ -18,7 +18,7 @@ Pipeline complet : cartographie SLAM → navigation autonome Nav2 + noeud ROS 2 
 ## Résultats
 - ✅ Carte 2D (occupancy grid) construite avec SLAM Toolbox
 - ✅ Navigation autonome avec évitement d'obstacles (Nav2)
-- ✅ Noeud ROS 2 custom : Joy → cmd_vel pour contrôle joystick
+- ✅ Noeud ROS 2 : Joy → cmd_vel pour contrôle joystick
 
 ## Architecture
 
@@ -55,7 +55,7 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py \
 ```
 
 ## Carte Générée
-![Carte](results/turtlebot3_map.pgm)
+![Carte](results/turtlebot3_map.png)
 
 ## Environnement
 - Ubuntu 22.04
