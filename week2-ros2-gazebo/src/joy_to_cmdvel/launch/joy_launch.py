@@ -1,0 +1,21 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+
+def generate_launch_description():
+    return LaunchDescription([
+
+        Node(
+            package='joy',
+            executable='joy_node',
+            name='joy_node',
+            parameters=[{'device': '/dev/input/js0'}]
+        ),
+
+        Node(
+            package='joy_to_cmdvel',
+            executable='joy_to_cmdvel',
+            name='joy_to_cmdvel',
+            output='screen'
+        ),
+    ])
