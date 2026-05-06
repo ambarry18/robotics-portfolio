@@ -45,7 +45,7 @@ Tous les projets sont reproductibles sur Ubuntu 22.04 avec ROS 2 Humble.
 ## 💻 Environnement
 - **OS** : Ubuntu 22.04
 - **GPU** : NVIDIA RTX 4060 — 8GB VRAM
-- **Framework** : ROS 2 Humble + Gazebo Classic
+- **Framework** : ROS 2 Humble + Gazebo 
 
 ---
 
