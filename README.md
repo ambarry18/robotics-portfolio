@@ -1,16 +1,28 @@
 # 🤖 Robotics Portfolio
-
 > Master 2 en Automatique-Robotique — Parcours Perception Artificielle & Robotique
 
 ---
 
-## 📊 Progression en temps réel
+## 👋 À propos
+
+Portfolio de projets en robotique autonome et perception artificielle.
+Chaque projet est implémenté de A à Z : du code bas niveau C++/Python
+jusqu'à l'intégration ROS 2 en simulation Gazebo.
+
+Chaîne de perception couverte :
+**acquisition capteurs → traitement → localisation → navigation → détection d'objets**
+
+Tous les projets sont reproductibles sur Ubuntu 22.04 avec ROS 2 Humble.
+
+---
+
+## 🗂️ Projets
 
 | Projet | Description | Stack | Résultat | Statut |
 |--------|-------------|-------|----------|--------|
 | [Week 1 — ORB-SLAM3](./week1-orb-slam3/) | SLAM RGB-D sur TUM dataset | C++, OpenCV, Eigen | ATE RMSE: **1.047 cm** | ✅ |
-| [Week 2 — ROS2 Gazebo](./week2-ros2-gazebo/) | Navigation autonome simulée + noeud joystick custom | ROS 2, Gazebo, Nav2, SLAM Toolbox | Carte 2D + Nav2 autonome  | ✅ |
-| [Week 3 — PCL LiDAR](./week3-pointcloud-lidar/) | Segmentation nuages de points | PCL, Open3D | — | ⏳ |
+| [Week 2 — ROS2 Gazebo](./week2-ros2-gazebo/) | Navigation autonome simulée + noeud joystick custom | ROS 2, Gazebo, Nav2, SLAM Toolbox | Carte 2D + Nav2 autonome | ✅ |
+| [Week 3 — PCL LiDAR](./week3-pointcloud-lidar/) | Pipeline LiDAR temps réel : filtrage, RANSAC, clustering | PCL 1.12, ROS 2 | 9 clusters détectés en temps réel | ✅ |
 | [Week 4 — SLAM ROS2](./week4-slam-ros2/) | ORB-SLAM3 intégré ROS 2 | ROS 2, SLAM | — | ⏳ |
 | [Week 5 — YOLOv8](./week5-yolo-detection/) | Détection objets temps réel | PyTorch, YOLO | — | ⏳ |
 | [Week 6 — Depth](./week6-depth-estimation/) | Estimation de profondeur | Depth Anything v2 | — | ⏳ |
@@ -20,7 +32,6 @@
 ---
 
 ## 🛠️ Stack technique
-
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
 ![C++](https://img.shields.io/badge/C++-14-orange)
 ![Python](https://img.shields.io/badge/Python-3.10-green)
@@ -32,16 +43,12 @@
 ---
 
 ## 💻 Environnement
-
 - **OS** : Ubuntu 22.04
 - **GPU** : NVIDIA RTX 4060 — 8GB VRAM
-- **Framework** : ROS 2 Humble + Gazebo Fortress
+- **Framework** : ROS 2 Humble + Gazebo Classic
 
 ---
 
 ## 📬 Me contacter
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amadou_Barry-0077B5?logo=linkedin)](https://www.linkedin.com/in/amadou-barry-stage-mecatronique-automatique-robotique/)
 [![GitHub](https://img.shields.io/badge/GitHub-ambarry18-181717?logo=github)](https://github.com/ambarry18)
-
----
