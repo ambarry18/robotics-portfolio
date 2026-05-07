@@ -23,11 +23,11 @@ Tous les projets sont reproductibles sur Ubuntu 22.04 avec ROS 2 Humble.
 | [Week 1 — ORB-SLAM3](./week1-orb-slam3/) | SLAM RGB-D sur TUM dataset | C++, OpenCV, Eigen | ATE RMSE: **1.047 cm** | ✅ |
 | [Week 2 — ROS2 Gazebo](./week2-ros2-gazebo/) | Navigation autonome simulée + noeud joystick custom | ROS 2, Gazebo, Nav2, SLAM Toolbox | Carte 2D + Nav2 autonome | ✅ |
 | [Week 3 — PCL LiDAR](./week3-pointcloud-lidar/) | Pipeline LiDAR temps réel : filtrage, RANSAC, clustering | PCL 1.12, ROS 2 | 9 clusters détectés en temps réel | ✅ |
-| [Week 4 — SLAM ROS2](./week4-slam-ros2/) | ORB-SLAM3 intégré ROS 2 | ROS 2, SLAM | — | ⏳ |
-| [Week 5 — YOLOv8](./week5-yolo-detection/) | Détection objets temps réel | PyTorch, YOLO | — | ⏳ |
-| [Week 6 — Depth](./week6-depth-estimation/) | Estimation de profondeur | Depth Anything v2 | — | ⏳ |
-| [Project 1 — Autonomous Perception](./project1-autonomous-perception/) | Perception autonome complète | ROS 2, DL, SLAM | — | ⏳ |
-| [Project 2 — Mobile Robot Nav](./project2-mobile-robot-nav/) | Navigation robot mobile | ROS 2, Gazebo | — | ⏳ |
+| [Week 4 — YOLOv8](./week4-yolo-detection/) | Détection d'objets temps réel | PyTorch, YOLOv8, ROS 2 | ⏳ |
+| [Week 5 — YOLOv8](./week5-yolo-detection/) | Détection objets temps réel | PyTorch, YOLO | ⏳ |
+| [Week 6 — Depth](./week6-depth-estimation/) | Estimation de profondeur | Depth Anything v2 | ⏳ |
+| [Project 1 — Autonomous Perception](./project1-autonomous-perception/) | Perception autonome complète | ROS 2, DL, SLAM | ⏳ |
+| [Project 2 — Mobile Robot Nav](./project2-mobile-robot-nav/) | Navigation robot mobile | ROS 2, Gazebo | ⏳ |
 
 ---
 
