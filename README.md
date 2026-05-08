@@ -1,54 +1,50 @@
 # 🤖 Robotics Portfolio
-> Master 2 en Automatique-Robotique — Parcours Perception Artificielle & Robotique
+
+> Ingénieur en Perception Artificielle & Robotique Autonome
 
 ---
 
 ## 👋 À propos
 
-Portfolio de projets en robotique autonome et perception artificielle.
-Chaque projet est implémenté de A à Z : du code bas niveau C++/Python
-jusqu'à l'intégration ROS 2 en simulation Gazebo.
+Passionné par la robotique autonome et la perception artificielle, je conçois des systèmes
+capables de percevoir, comprendre et naviguer dans leur environnement.
 
-Chaîne de perception couverte :
-**acquisition capteurs → traitement → localisation → navigation → détection d'objets**
-
-Tous les projets sont reproductibles sur Ubuntu 22.04 avec ROS 2 Humble.
+Ce portfolio regroupe mes projets de robotique & IA.
 
 ---
 
 ## 🗂️ Projets
 
-| Projet | Description | Stack | Résultat | Statut |
-|--------|-------------|-------|----------|--------|
-| [Week 1 — ORB-SLAM3](./week1-orb-slam3/) | SLAM RGB-D sur TUM dataset | C++, OpenCV, Eigen | ATE RMSE: **1.047 cm** | ✅ |
-| [Week 2 — ROS2 Gazebo](./week2-ros2-gazebo/) | Navigation autonome simulée + noeud joystick custom | ROS 2, Gazebo, Nav2, SLAM Toolbox | Carte 2D + Nav2 autonome | ✅ |
-| [Week 3 — PCL LiDAR](./week3-pointcloud-lidar/) | Pipeline LiDAR temps réel : filtrage, RANSAC, clustering | PCL 1.12, ROS 2 | 9 clusters détectés en temps réel | ✅ |
-| [Week 4 — YOLOv8](./week4-yolo-detection/) | Détection d'objets temps réel | PyTorch, YOLOv8, ROS 2 | ⏳ |
-| [Week 5 — YOLOv8](./week5-yolo-detection/) | Détection objets temps réel | PyTorch, YOLO | ⏳ |
-| [Week 6 — Depth](./week6-depth-estimation/) | Estimation de profondeur | Depth Anything v2 | ⏳ |
-| [Project 1 — Autonomous Perception](./project1-autonomous-perception/) | Perception autonome complète | ROS 2, DL, SLAM | ⏳ |
-| [Project 2 — Mobile Robot Nav](./project2-mobile-robot-nav/) | Navigation robot mobile | ROS 2, Gazebo | ⏳ |
+| Projet | Description | Stack | Statut |
+|--------|-------------|-------|--------|
+| [Week 1 — ORB-SLAM3](./week1-orb-slam3/) | SLAM RGB-D sur dataset TUM — ATE RMSE : **1.047 cm** | C++, OpenCV, Eigen | ✅ |
+| [Week 2 — Navigation Autonome](./week2-ros2-gazebo/) | SLAM + Nav2 + nœud joystick custom | ROS 2, Nav2, Gazebo | ✅ |
+| [Week 3 — LiDAR & PointCloud](./week3-pointcloud-lidar/) | Filtrage, RANSAC, clustering temps réel | PCL, ROS 2, C++ | ✅ |
+| [Week 4 — Détection YOLOv8](./week4-yolo-detection/) | Détection d'objets temps réel sur flux caméra ROS 2 | YOLOv8, PyTorch, ROS 2 | ✅ |
 
 ---
 
 ## 🛠️ Stack technique
+
 ![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
 ![C++](https://img.shields.io/badge/C++-14-orange)
 ![Python](https://img.shields.io/badge/Python-3.10-green)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.5-red)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-red)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.5-EE4C2C)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-E95420)
 ![CUDA](https://img.shields.io/badge/CUDA-RTX_4060-76B900)
 
 ---
 
-## 💻 Environnement
+## 💻 Environnement de développement
+
 - **OS** : Ubuntu 22.04
-- **GPU** : NVIDIA RTX 4060 — 8GB VRAM
-- **Framework** : ROS 2 Humble + Gazebo 
+- **GPU** : NVIDIA RTX 4060 Laptop — 8GB VRAM
+- **Framework** : ROS 2 Humble + Gazebo Classic
 
 ---
 
-## 📬 Me contacter
+## 📬 Contact
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Amadou_Barry-0077B5?logo=linkedin)](https://www.linkedin.com/in/amadou-barry-stage-mecatronique-automatique-robotique/)
 [![GitHub](https://img.shields.io/badge/GitHub-ambarry18-181717?logo=github)](https://github.com/ambarry18)
