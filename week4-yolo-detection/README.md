@@ -15,15 +15,20 @@ sur le flux caméra du TurtleBot3 Waffle en simulation Gazebo.
 
 ## Architecture
 
+```
 Gazebo (TurtleBot3 Waffle)
-└── /camera/image_raw
-↓
+        |
+        | /camera/image_raw
+        ↓
 yolo_detection_node
-├── cv_bridge  →  ROS Image → OpenCV
-├── YOLOv8n    →  Détection objets (80 classes COCO)
-└── cv_bridge  →  OpenCV → ROS Image
-↓
-/yolo_image  →  RViz2
+        |-- cv_bridge    : ROS Image → OpenCV
+        |-- YOLOv8n      : Détection (80 classes COCO)
+        |-- cv_bridge    : OpenCV → ROS Image
+        |
+        | /yolo_image
+        ↓
+      RViz2
+```
 
 ## Package ROS 2 — yolo_detection
 
