@@ -1,6 +1,6 @@
 # 🤖 Robotics Portfolio
 
-> Ingénieur en Perception Artificielle & Robotique Autonome
+> Ingénieur en Perception Artificielle - Robotique 
 
 ---
 
