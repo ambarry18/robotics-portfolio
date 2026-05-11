@@ -1,0 +1,178 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="warehouse">
+
+    <!-- Lumière principale -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Sol -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Mur Nord -->
+    <model name="wall_north">
+      <static>true</static>
+      <pose>0 10 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>20 0.2 2</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>20 0.2 2</size></box></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Mur Sud -->
+    <model name="wall_south">
+      <static>true</static>
+      <pose>0 -10 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>20 0.2 2</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>20 0.2 2</size></box></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Mur Est -->
+    <model name="wall_east">
+      <static>true</static>
+      <pose>10 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.2 20 2</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.2 20 2</size></box></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Mur Ouest -->
+    <model name="wall_west">
+      <static>true</static>
+      <pose>-10 0 1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.2 20 2</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.2 20 2</size></box></geometry>
+          <material><ambient>0.8 0.8 0.8 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Rayonnage 1 -->
+    <model name="shelf_1">
+      <static>true</static>
+      <pose>-6 -4 0.75 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Rayonnage 2 -->
+    <model name="shelf_2">
+      <static>true</static>
+      <pose>-3 -4 0.75 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Rayonnage 3 -->
+    <model name="shelf_3">
+      <static>true</static>
+      <pose>0 -4 0.75 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Rayonnage 4 -->
+    <model name="shelf_4">
+      <static>true</static>
+      <pose>-6 4 0.75 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Rayonnage 5 -->
+    <model name="shelf_5">
+      <static>true</static>
+      <pose>-3 4 0.75 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Rayonnage 6 -->
+    <model name="shelf_6">
+      <static>true</static>
+      <pose>0 4 0.75 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+        </collision>
+        <visual name="visual">
+          <geometry><box><size>0.4 4 1.5</size></box></geometry>
+          <material><ambient>0.6 0.4 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Zone de dépôt (marqueur au sol) -->
+    <model name="depot_zone">
+      <static>true</static>
+      <pose>7 0 0.01 0 0 0</pose>
+      <link name="link">
+        <visual name="visual">
+          <geometry><box><size>3 3 0.02</size></box></geometry>
+          <material><ambient>0.2 0.8 0.2 1</ambient></material>
+        </visual>
+      </link>
+    </model>
+
+  </world>
+</sdf>
