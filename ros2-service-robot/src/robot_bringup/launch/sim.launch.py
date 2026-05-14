@@ -20,13 +20,7 @@ def generate_launch_description():
         get_package_share_directory('turtlebot3_description'),
         'urdf', 'turtlebot3_waffle_pi.urdf'
     )
-
-    slam_params = os.path.join(
-        get_package_share_directory('robot_slam'),
-        'config', 'slam_toolbox_params.yaml'
-    )
-
-    
+ 
     with open(urdf_path, 'r') as f:
         robot_desc = f.read().replace('${namespace}', '')
 
@@ -62,19 +56,6 @@ def generate_launch_description():
                          '-entity', 'waffle_pi', '-file', sdf,
                          '-x', '0.0', '-y', '0.5', '-z', '0.01'],
                     output='screen'
-                )
-            ]
-        ),
-
-        TimerAction(
-            period=6.0,
-            actions=[
-                Node(
-                    package='slam_toolbox',
-                    executable='async_slam_toolbox_node',
-                    name='slam_toolbox',
-                    output='screen',
-                    parameters=[slam_params, {'use_sim_time': True}]
                 )
             ]
         ),
