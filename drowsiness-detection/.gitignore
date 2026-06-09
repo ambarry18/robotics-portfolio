@@ -1,0 +1,25 @@
+models/*.dat
+models/*.bz2
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Environnement
+.env
+*.pkl
+
+# Données et résultats
+data/drowsy/*
+data/alert/*
+results/*
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
